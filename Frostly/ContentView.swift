@@ -89,31 +89,6 @@ struct ContentView: View {
             
             Slider(value: $sliderValue, in: 0...1, step: 0.01)
         }
-        
-//        VStack {
-//                    Rectangle()
-//                        .fill(Color.black)
-//                        .frame(width: 200, height: 200)
-//
-//                    RoundedRectangle(cornerRadius: 25, style: .continuous)
-//                        .fill(Color.red)
-//                        .frame(width: 200, height: 200)
-//                        .opacity(0.8)
-//
-//                    Capsule()
-//                        .fill(Color.green)
-//                        .frame(width: 100, height: 50)
-//
-//                    Ellipse()
-//                        .fill(Color.blue)
-//                        .frame(width: 100, height: 50)
-//
-//                    Circle()
-//                        .fill(Color.white)
-//                        .frame(width: 100, height: 50)
-//                }
-
-
     }
 }
 
