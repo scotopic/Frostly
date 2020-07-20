@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBAD55FD24C6107600D102F4 /* FrostlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD55FC24C6107600D102F4 /* FrostlyApp.swift */; };
+		BBAD55FF24C6107600D102F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD55FE24C6107600D102F4 /* ContentView.swift */; };
+		BBAD560124C6107800D102F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAD560024C6107800D102F4 /* Assets.xcassets */; };
+		BBAD560424C6107800D102F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAD560324C6107800D102F4 /* Preview Assets.xcassets */; };
+		BBAD560F24C6107800D102F4 /* FrostlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD560E24C6107800D102F4 /* FrostlyTests.swift */; };
+		BBAD561A24C6107800D102F4 /* FrostlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD561924C6107800D102F4 /* FrostlyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBAD560B24C6107800D102F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAD55F124C6107600D102F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBAD55F824C6107600D102F4;
+			remoteInfo = Frostly;
+		};
+		BBAD561624C6107800D102F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAD55F124C6107600D102F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBAD55F824C6107600D102F4;
+			remoteInfo = Frostly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBAD55F924C6107600D102F4 /* Frostly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frostly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAD55FC24C6107600D102F4 /* FrostlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostlyApp.swift; sourceTree = "<group>"; };
+		BBAD55FE24C6107600D102F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBAD560024C6107800D102F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBAD560324C6107800D102F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBAD560524C6107800D102F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAD560A24C6107800D102F4 /* FrostlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrostlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAD560E24C6107800D102F4 /* FrostlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostlyTests.swift; sourceTree = "<group>"; };
+		BBAD561024C6107800D102F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAD561524C6107800D102F4 /* FrostlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrostlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAD561924C6107800D102F4 /* FrostlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostlyUITests.swift; sourceTree = "<group>"; };
+		BBAD561B24C6107800D102F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBAD55F624C6107600D102F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAD560724C6107800D102F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAD561224C6107800D102F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBAD55F024C6107600D102F4 = {
+			isa = PBXGroup;
+			children = (
+				BBAD55FB24C6107600D102F4 /* Frostly */,
+				BBAD560D24C6107800D102F4 /* FrostlyTests */,
+				BBAD561824C6107800D102F4 /* FrostlyUITests */,
+				BBAD55FA24C6107600D102F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBAD55FA24C6107600D102F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD55F924C6107600D102F4 /* Frostly.app */,
+				BBAD560A24C6107800D102F4 /* FrostlyTests.xctest */,
+				BBAD561524C6107800D102F4 /* FrostlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBAD55FB24C6107600D102F4 /* Frostly */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD55FC24C6107600D102F4 /* FrostlyApp.swift */,
+				BBAD55FE24C6107600D102F4 /* ContentView.swift */,
+				BBAD560024C6107800D102F4 /* Assets.xcassets */,
+				BBAD560524C6107800D102F4 /* Info.plist */,
+				BBAD560224C6107800D102F4 /* Preview Content */,
+			);
+			path = Frostly;
+			sourceTree = "<group>";
+		};
+		BBAD560224C6107800D102F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD560324C6107800D102F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBAD560D24C6107800D102F4 /* FrostlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD560E24C6107800D102F4 /* FrostlyTests.swift */,
+				BBAD561024C6107800D102F4 /* Info.plist */,
+			);
+			path = FrostlyTests;
+			sourceTree = "<group>";
+		};
+		BBAD561824C6107800D102F4 /* FrostlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD561924C6107800D102F4 /* FrostlyUITests.swift */,
+				BBAD561B24C6107800D102F4 /* Info.plist */,
+			);
+			path = FrostlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBAD55F824C6107600D102F4 /* Frostly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAD561E24C6107800D102F4 /* Build configuration list for PBXNativeTarget "Frostly" */;
+			buildPhases = (
+				BBAD55F524C6107600D102F4 /* Sources */,
+				BBAD55F624C6107600D102F4 /* Frameworks */,
+				BBAD55F724C6107600D102F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frostly;
+			productName = Frostly;
+			productReference = BBAD55F924C6107600D102F4 /* Frostly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBAD560924C6107800D102F4 /* FrostlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAD562124C6107800D102F4 /* Build configuration list for PBXNativeTarget "FrostlyTests" */;
+			buildPhases = (
+				BBAD560624C6107800D102F4 /* Sources */,
+				BBAD560724C6107800D102F4 /* Frameworks */,
+				BBAD560824C6107800D102F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBAD560C24C6107800D102F4 /* PBXTargetDependency */,
+			);
+			name = FrostlyTests;
+			productName = FrostlyTests;
+			productReference = BBAD560A24C6107800D102F4 /* FrostlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBAD561424C6107800D102F4 /* FrostlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAD562424C6107800D102F4 /* Build configuration list for PBXNativeTarget "FrostlyUITests" */;
+			buildPhases = (
+				BBAD561124C6107800D102F4 /* Sources */,
+				BBAD561224C6107800D102F4 /* Frameworks */,
+				BBAD561324C6107800D102F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBAD561724C6107800D102F4 /* PBXTargetDependency */,
+			);
+			name = FrostlyUITests;
+			productName = FrostlyUITests;
+			productReference = BBAD561524C6107800D102F4 /* FrostlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBAD55F124C6107600D102F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BBAD55F824C6107600D102F4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					BBAD560924C6107800D102F4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = BBAD55F824C6107600D102F4;
+					};
+					BBAD561424C6107800D102F4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = BBAD55F824C6107600D102F4;
+					};
+				};
+			};
+			buildConfigurationList = BBAD55F424C6107600D102F4 /* Build configuration list for PBXProject "Frostly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBAD55F024C6107600D102F4;
+			productRefGroup = BBAD55FA24C6107600D102F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBAD55F824C6107600D102F4 /* Frostly */,
+				BBAD560924C6107800D102F4 /* FrostlyTests */,
+				BBAD561424C6107800D102F4 /* FrostlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBAD55F724C6107600D102F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAD560424C6107800D102F4 /* Preview Assets.xcassets in Resources */,
+				BBAD560124C6107800D102F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAD560824C6107800D102F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAD561324C6107800D102F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBAD55F524C6107600D102F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAD55FF24C6107600D102F4 /* ContentView.swift in Sources */,
+				BBAD55FD24C6107600D102F4 /* FrostlyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAD560624C6107800D102F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAD560F24C6107800D102F4 /* FrostlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAD561124C6107800D102F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAD561A24C6107800D102F4 /* FrostlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBAD560C24C6107800D102F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBAD55F824C6107600D102F4 /* Frostly */;
+			targetProxy = BBAD560B24C6107800D102F4 /* PBXContainerItemProxy */;
+		};
+		BBAD561724C6107800D102F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBAD55F824C6107600D102F4 /* Frostly */;
+			targetProxy = BBAD561624C6107800D102F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBAD561C24C6107800D102F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBAD561D24C6107800D102F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBAD561F24C6107800D102F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Frostly/Preview Content\"";
+				DEVELOPMENT_TEAM = QS6HUP6CEJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Frostly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavenblueprint.Frostly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBAD562024C6107800D102F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Frostly/Preview Content\"";
+				DEVELOPMENT_TEAM = QS6HUP6CEJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Frostly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavenblueprint.Frostly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBAD562224C6107800D102F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS6HUP6CEJ;
+				INFOPLIST_FILE = FrostlyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavenblueprint.FrostlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frostly.app/Frostly";
+			};
+			name = Debug;
+		};
+		BBAD562324C6107800D102F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS6HUP6CEJ;
+				INFOPLIST_FILE = FrostlyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavenblueprint.FrostlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frostly.app/Frostly";
+			};
+			name = Release;
+		};
+		BBAD562524C6107800D102F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS6HUP6CEJ;
+				INFOPLIST_FILE = FrostlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavenblueprint.FrostlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frostly;
+			};
+			name = Debug;
+		};
+		BBAD562624C6107800D102F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS6HUP6CEJ;
+				INFOPLIST_FILE = FrostlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavenblueprint.FrostlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frostly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBAD55F424C6107600D102F4 /* Build configuration list for PBXProject "Frostly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAD561C24C6107800D102F4 /* Debug */,
+				BBAD561D24C6107800D102F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAD561E24C6107800D102F4 /* Build configuration list for PBXNativeTarget "Frostly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAD561F24C6107800D102F4 /* Debug */,
+				BBAD562024C6107800D102F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAD562124C6107800D102F4 /* Build configuration list for PBXNativeTarget "FrostlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAD562224C6107800D102F4 /* Debug */,
+				BBAD562324C6107800D102F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAD562424C6107800D102F4 /* Build configuration list for PBXNativeTarget "FrostlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAD562524C6107800D102F4 /* Debug */,
+				BBAD562624C6107800D102F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBAD55F124C6107600D102F4 /* Project object */;
+}
