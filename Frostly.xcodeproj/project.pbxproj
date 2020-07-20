@@ -13,6 +13,7 @@
 		BBAD560424C6107800D102F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAD560324C6107800D102F4 /* Preview Assets.xcassets */; };
 		BBAD560F24C6107800D102F4 /* FrostlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD560E24C6107800D102F4 /* FrostlyTests.swift */; };
 		BBAD561A24C6107800D102F4 /* FrostlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD561924C6107800D102F4 /* FrostlyUITests.swift */; };
+		BBAD562824C6109F00D102F4 /* Frost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD562724C6109F00D102F4 /* Frost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BBAD561524C6107800D102F4 /* FrostlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrostlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAD561924C6107800D102F4 /* FrostlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostlyUITests.swift; sourceTree = "<group>"; };
 		BBAD561B24C6107800D102F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAD562724C6109F00D102F4 /* Frost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		BBAD55FB24C6107600D102F4 /* Frostly */ = {
 			isa = PBXGroup;
 			children = (
+				BBAD562724C6109F00D102F4 /* Frost.swift */,
 				BBAD55FC24C6107600D102F4 /* FrostlyApp.swift */,
 				BBAD55FE24C6107600D102F4 /* ContentView.swift */,
 				BBAD560024C6107800D102F4 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBAD562824C6109F00D102F4 /* Frost.swift in Sources */,
 				BBAD55FF24C6107600D102F4 /* ContentView.swift in Sources */,
 				BBAD55FD24C6107600D102F4 /* FrostlyApp.swift in Sources */,
 			);
